@@ -1,0 +1,53 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+    <head>
+        <title>XHTML Page</title>
+    </head>
+
+    <body>
+
+        <!-- Version corrected according to the needs of XHTML -->
+
+        <h1>Sample title</h1>
+            <strong>
+                <p>
+                    Sample description
+                </p>
+            </strong>
+       
+    
+        <form action="sample.html" method="get">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" required="required" />
+            <input type="submit" value="Submit" />
+        </form>
+
+          <!-- The errors were made intentionally and consciously to demonstrate the low restrictiveness of HTML itself compared to the more restrictive XHTML -->
+
+
+        <h1>Sample title
+            <STRONG>
+                <P>
+                    Sample description
+            </STRONG>
+        </P>
+    
+        <form action="sample.html" method="get">
+            <label For="name">Name</label>
+            <input type="text" name="name" id="name" required>
+            <input type="submit" value="Submit">
+        </form>
+
+        <!-- Errors from a web browser:
+         
+        This page contains the following errors:
+        error on line 15 at column 22: Opening and ending tag mismatch: P line 13 and STRONG
+        Below is a rendering of the page up to the first error.
+        
+        -->
+
+    </body>
+
+</html>
