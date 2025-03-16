@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+
+    <h1>Form</h1>
+
+    <!-- Simple form that sends a response to the same page -->
+    <h2>Age form</h2>
+     <form>
+        <label for="name">Name:</label><br>
+        <input type="text" name="name" id="name"><br>
+        <label for="age">Age:</label><br>
+        <input type="number" name="age" id="age"><br>
+        <input type="submit" value="Submit"><br>
+     </form>
+
+     <!-- More complex form - method of sending data is specified  -->
+
+     <h2>Fruit form</h2>
+     <form action="index.html" method="get">
+        <label for="fruitname">Fruit:</label><br>
+        <input type="text" name="fruitname" id="fruitname"><br><br>
+
+        <label for="region">Region:</label><br>
+
+        <input type="radio" name="region" id="europe" value="europe">
+        <label for="europe">Europe</label><br>
+
+        <input type="radio" name="region" id="asia" value="asia">
+        <label for="asia">Asia</label><br>
+
+        <input type="radio" name="region" id="africa" value="africa">
+        <label for="africa">Africa</label><br>
+
+     </form>
+    
+
+
+    
+</body>
+</html>

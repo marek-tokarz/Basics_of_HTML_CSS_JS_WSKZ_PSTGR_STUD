@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Strona tytułowa</title>
+
+    <style>
+      .spacer1 {
+        margin-top: 180px;
+      }
+
+      .spacer2 {
+        margin-top: 40px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Komentarz HTML -->
+
+    <nav>
+      <a href="about.html">More info</a>
+    </nav>
+
+    <div style="float: left; height: 10%; width: 100%">
+
+      <h2>Fruits</h2>
+
+      <div style="float: left; height: 10%; width: 50%">
+        <div style="float: left; width: 25%">
+          <section>
+            <h3>Aplle</h3>
+            <p>Quantity: <b>10</b></p>
+          </section>
+        </div>
+
+        <div style="float: left; width: 25%">
+          <section>
+            <h3>Banana</h3>
+            <p>Quantity: <b>7</b></p>
+          </section>
+        </div>
+      </div>
+  
+    <div style="float: left; height: 10%; width: 50%">
+      <div style="float: left; width: 25%">
+        <section>
+          <h3>Orange</h3>
+          <p>Quantity: <b>14</b></p>
+        </section>
+      </div>
+      
+      <div style="float: left; width: 25%">
+        <section>
+          <h3>Watermellon</h3>
+          <p>Quantity: <b>5</b></p>
+        </section>
+      </div>
+    </div>
+
+    </div>
+
+    <!-- Unordered list -->
+
+    <div class="spacer1"></div>
+    <!-- Spacer to replace <br> tags -->
+
+    <div style="float: left; height: 10%; width: 100%">
+      <div style="float: left; width: 25%">
+        <h2>Car manufacturers</h2>
+
+        <ul>
+          <li>Audi</li>
+          <li>Ferrari</li>
+          <li>McLaren</li>
+        </ul>
+      </div>
+
+      <!-- Unordered list with Emmet snippet: ul>li*4 -->
+
+      <h2>Car manufacturers with Emmet snippet</h2>
+      <div style="float: left; width: 25%">
+        <ul>
+          <li>Volkswagen</li>
+          <li>Skoda</li>
+          <li>Volvo</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="spacer1"></div>
+
+    <div style="float: left; height: 10%; width: 100%">
+      <!-- Describing list -->
+      <h2>Some interesting animals</h2>
+
+      <dl>
+        <dt>Cheempanzee</dt>
+        <dd>A monkey that lives in Africa</dd>
+      </dl>
+      <dl>
+        <dt>Kakapo parrot</dt>
+        <dd>A non flying parrot that lives in a New Zeland</dd>
+      </dl>
+    </div>
+
+    <div class="spacer2"></div>
+
+    <div>
+      <h2>Fruits images</h2>
+
+      <!-- image and a map -->
+      <img
+        src="images/quince.jpg"
+        width="300"
+        usemap="#quince-map"
+        alt="Three quinces, one of them in a half"
+      />
+      <!-- static images - forced size -->
+      <img
+        src="images/pear.jpg"
+        width="300"
+        alt="Two pears, one of them in a half"
+      />
+      <img
+        src="images/Red_Apple.jpg"
+        width="300"
+        alt="One, almost whole red apple"
+      />
+
+      <!-- usemap is like a URL -->
+
+      <map name="quince-map">
+        <area
+          shape="circle"
+          coords="100,100,100"
+          href="#quincedefinition"
+          alt="Three quinces, one of them in a half"
+        />
+        <!-- area defines a shape -->
+      </map>
+
+      <h2>Fruits descriptions</h2>
+
+      <p>Example of a text about an apple</p>
+      <p>Example of a text about a pear</p>
+      <p id="quincedefinition">Quince is a nice fruit</p>
+    </div>
+  </body>
+</html>
