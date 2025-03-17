@@ -1,0 +1,22 @@
+#title {
+    color: crimson;
+}
+
+#description {
+    font-style: italic;
+    font-weight: 400;
+}
+
+.description {
+    font-style: italic;
+    color: #333; 
+}
+
+h2, p {
+    font-family: 'Segoe', Tahoma, Geneve;
+    color: coral;
+}
+
+div > p {
+    color: blue;
+}
