@@ -1,0 +1,44 @@
+body {
+    background-color: aquamarine;
+}
+
+@font-face {
+    font-family: OpenSansBold;
+    src: url("../fonts/OpenSans-Bold.ttf");
+}
+
+@font-face {
+    font-family: OpenSansMedium;
+    src: url("../fonts/OpenSans-Medium.ttf");
+}
+
+@font-face {
+    font-family: OpenSansLight;
+    src: url("../fonts/OpenSans-Light.ttf");
+}
+
+h1 {
+    font-family: OpenSans, "Open Sans", sans-serif;
+    font-weight: 800;
+    font-size: 24px;
+    color: #333;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-family: "Dosis", sans-serif;
+    font-weight: 800;
+    text-shadow: 0px 2px 4px lightcyan;
+    text-decoration: underline beige 2px;
+}
+
+p {
+    font-family: "Dosis";
+    font-size: 16px;
+    font-style: italic;
+    text-indent: 32px;
+    letter-spacing: -0.25px;
+    line-height: 1.1;
+    word-spacing: 2px;
+    text-align: justify;
+}
