@@ -1,0 +1,25 @@
+ul > li {
+    color: brown;
+}
+
+ul > li > ul > li {
+    /* list-style-image: url(../img/chefs_hat.png) */
+    color: tomato;
+}
+
+li:first-child {
+    margin-top: 10px;
+}
+
+body > ul > li {
+    margin-top: 15px;
+}
+
+ul > li > ul {
+    margin-top: 2px;
+}
+
+ol > li {
+    list-style-position: inside;
+    list-style-type: katakana;
+}
