@@ -1,0 +1,82 @@
+/* FIRST TABLE */
+
+#countries tr:nth-child(even) {
+    background-color: #ddd;
+}
+
+#countries tr:nth-child(odd) {
+    background-color: #eee;
+}
+
+#countries, #countries td, #countries tr, #countries th {
+    border: 1px groove;
+    border-collapse: collapse;
+}
+
+#countries {
+    width: 100%;
+}
+
+#countries th {
+    background-color: blueviolet;
+    color: azure;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    font-weight: 800;
+    height: 32px;
+}
+
+#countries td {
+    padding: 16px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
+}
+
+/* SECOND TABLE */
+
+body {
+   /* background: linear-gradient(90deg, #222, #333); */
+    background: linear-gradient(to right,red,orange,green,blue);
+    background-repeat: repeat-y;
+}
+
+h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#food {
+    width: 100%;
+    border-collapse: collapse;
+    overflow: hidden;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 0 0 16px rgba(255, 255, 255, 0.1);
+}
+
+#food, #food td, #food tr, #food th {
+    border: 1px groove;
+    border-collapse: collapse;
+}
+
+#food th, #food td {
+    padding: 16px;
+    background-color: rgba(255,255, 255, 0.1);
+    color: #fff;
+}
+
+#food th {
+    text-align: left;
+}
+
+#food thead {
+    background-color: grey;
+}
+
+#food tbody>tr:hover {
+    background-color: rgba(185, 10, 220, 0.3);
+}
+
+#food tbody>tr>td:hover {
+    position: relative;
+    background-color: rgba(162, 0, 255, 0.9);
+}
