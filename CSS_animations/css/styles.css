@@ -1,0 +1,31 @@
+#left:hover {
+    animation-duration: 2s;
+    animation-name: grow;
+    animation-direction: alternate;
+}
+
+#left {
+    animation: shrink 2s alternate;
+}
+
+@keyframes grow {
+    from {
+        font-size: 16px;
+        color: black;
+    }
+    to {
+        font-size: 18px;
+        color: red;
+    }
+}
+
+@keyframes shrink {
+    from {
+        font-size: 18px;
+        color: red;
+    }
+    to {
+        font-size: 16 px;
+        color: black;
+    }
+}
