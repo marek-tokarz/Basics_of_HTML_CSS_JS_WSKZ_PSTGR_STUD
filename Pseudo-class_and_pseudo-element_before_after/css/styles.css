@@ -1,0 +1,83 @@
+body {
+    font-family: 'Dosis', sans-serif;
+    font-weight: 400;
+    color: #aca1ae;
+    background-color: #381f39;
+}
+
+/* Table */
+
+#movies h2 {
+    font-size: 2em; /* em - relative unit of measure */
+    font-weight: 800;
+    line-height: 1em;
+    text-align: center;
+    color: #fff;
+
+}
+
+#movies {
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+#movies tbody>tr>td:last-of-type {
+    text-align: left;
+}
+
+#movies td:first-child {
+    color: #c966fb;
+    font-weight: bold;
+}
+
+#movies td, #movies th {
+    padding: 2% 5% 2% 5%;
+}
+
+#movies tr:nth-child(odd) {
+    background-color: #533a5a;
+}
+
+
+#movies tr:nth-child(even) {
+    background-color: #472f53;
+}
+
+#movies th {
+    background-color: #2e183b;
+}
+
+#movies tr:hover {
+    background-color: #403748;
+    box-shadow: 0px 4px 4px  #151516ba;
+}
+
+#movies td:hover {
+    background-color: #15e19a;
+    color: #000;
+}
+
+/* TODO List */
+
+#todos li {
+    list-style-type: none;
+    position: relative;
+    width: 75%;
+    margin: 1px;
+    padding: 0.5em 2em;
+    background: rgb(83,53,89);
+    color: #fff;
+}
+
+#todos li.ready {
+    background: #15e19a;
+    color: #2e2c2c;
+}
+
+#todos li.ready::before {
+    content: "☑ ";
+    position: absolute;
+    left: 0.75em;
+    font-weight: bold;
+}
