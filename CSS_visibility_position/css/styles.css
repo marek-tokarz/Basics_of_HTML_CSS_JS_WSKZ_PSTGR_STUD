@@ -1,0 +1,51 @@
+/* Visibility */
+#marie td:first-of-type {
+    visibility: hidden;
+}
+
+#arthur td:last-of-type {
+    visibility: collapse;
+}
+
+#amy td:first-of-type {
+    display:none;
+}
+
+table, table tr, table td {
+    border: 1px solid grey;
+}
+
+#testedparagraph {
+    color: blue;
+    position: relative;
+    /*position: fixed;*/
+    top: 18px;
+}
+
+#absoluteheader {
+    color:tomato;
+    position: absolute;
+    top: 16px;
+    left: 512px;
+}
+
+#stickyheader {
+    color: blueviolet;
+    position: fixed;
+    top: 50px;
+    background-color: white;
+}
+
+/* Layers */
+
+#testedparagraph {
+    z-index: 16; /* Higher layer*/
+}
+
+#stickyheader {
+    z-index: -1;
+}
+
+p {
+    background-color: white;
+}
